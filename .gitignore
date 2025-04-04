@@ -1,0 +1,16 @@
+# Ignore venv and temp files
+.venv/
+venv/
+__pycache__/
+
+# Ignore large models
+/models/
+*.gguf
+
+# Ignore PDFs
+/data/input/
+/data/output/
+
+# Ignore system junk
+.DS_Store
+Thumbs.db
